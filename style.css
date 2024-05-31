@@ -87,6 +87,7 @@ main {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px; /* Mais espaçamento entre a foto e o contêiner de informações */
 }
 
 .about img {
@@ -98,8 +99,51 @@ main {
     max-width: 500px;
 }
 
-.contact-info h2 {
+.contact-info h2, .contact-info p {
     margin-bottom: 10px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center; /* Centralizar os botões */
+    gap: 10px;
+}
+
+.contact-buttons button {
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-buttons button:hover {
+    background: #777;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.project-item-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-item-content div {
+    flex: 1;
+}
+
+.project-item-content iframe {
+    flex: 1;
+    max-width: 500px;
 }
 
 @media (max-width: 600px) {
@@ -113,6 +157,10 @@ main {
     }
 
     .about {
+        flex-direction: column;
+    }
+
+    .project-item-content {
         flex-direction: column;
     }
 }
