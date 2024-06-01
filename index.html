@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO | Davi Guindani</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
@@ -23,18 +23,21 @@
         <section class="projects">
             <h2>Personal Projects</h2>
             <div class="project-gallery">
-                <div class="project-item" onclick="navigateTo('project.html')">
-                    <img src="project1.jpg" alt="Project 1">
-                    <p>Project 1</p>
+                <div class="project-item" onclick="navigateTo('pong.html')">
+                    <img src="project1.jpg" alt="PONG">
+                    <div class="project-description">A classic Pong game remake</div>
                 </div>
                 <div class="project-item" onclick="navigateTo('project.html')">
                     <img src="project2.jpg" alt="Project 2">
-                    <p>Project 2</p>
+                    <div class="project-description">Description for Project 2</div>
                 </div>
-                <!-- Adicione mais projetos conforme necessário -->
+                <div class="project-item" onclick="navigateTo('project.html')">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-description">Description for Project 3</div>
+                </div>
             </div>
         </section>
     </main>
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

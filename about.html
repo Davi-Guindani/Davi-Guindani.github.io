@@ -3,38 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davi Guindani - About/Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ABOUT/CONTACT | Davi Guindani</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
                 <h1>Davi Guindani</h1>
-                <p>game programmer</p>
+                <p>GAME PROGRAMMER</p>
             </div>
             <nav>
-                <button onclick="navigateTo('index.html')">Portfolio</button>
-                <button onclick="navigateTo('about.html')">About/Contact</button>
+                <button onclick="navigateTo('index.html')">PORTFOLIO</button>
+                <button onclick="navigateTo('about.html')">ABOUT/CONTACT</button>
             </nav>
         </div>
     </header>
     <main>
         <section class="about">
-            <img src="myphoto.jpg" alt="Davi Guindani">
+            <img src="./assets/pictures/myphoto.png" alt="Davi Guindani">
             <div class="contact-info">
                 <h2>About Me</h2>
-                <p>Here is a brief text about myself. I am a passionate game programmer with experience in...</p>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="contact-buttons">
-                <button onclick="window.open('https://www.linkedin.com/in/davi-guindani/', '_blank')">LinkedIn</button>
-                <button onclick="window.open('https://github.com/daviguindani', '_blank')">GitHub</button>
-                <button onclick="window.open('resume.pdf', '_blank')">Resume</button>
+                <p>Here you can write a brief text about yourself.</p>
+                <h2>Contact Information</h2>
+                <div class="contact-buttons">
+                    <button onclick="window.open('https://www.linkedin.com/in/daviguindani', '_blank')">LinkedIn</button>
+                    <button onclick="window.open('https://github.com/davi-guindani', '_blank')">GitHub</button>
+                    <button onclick="window.open('./assets/resume/resume.pdf', '_blank')">Resume</button>
+                </div>
             </div>
         </section>
     </main>
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
