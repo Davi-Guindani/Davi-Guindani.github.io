@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="logo">
+            <div class="logo" onclick="navigateTo('index.html')" style="cursor: pointer;">
                 <h1>Davi Guindani</h1>
                 <p>GAME PROGRAMMER</p>
             </div>
@@ -43,6 +43,12 @@
             </div>
 
             <!-- Add more sections as needed -->
+
+            <!-- Buttons for GitHub and Download -->
+            <div class="project-buttons">
+                <button onclick="window.open('https://github.com/your-repo-link', '_blank')">View on GitHub</button>
+                <button onclick="window.open('https://your-download-link.com', '_blank')">Download Game</button>
+            </div>
         </section>
     </main>
     <script src="./assets/js/script.js"></script>

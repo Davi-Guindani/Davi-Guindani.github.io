@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 /* Reset básico */
 * {
     margin: 0;
@@ -6,13 +8,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    background-color: #1f242d;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #1f242d;
+    color: #8175d3;
     padding: 10px 0;
 }
 
@@ -30,16 +33,20 @@ header {
 }
 
 nav button {
-    background: #555;
-    color: #fff;
+    background: #1f242d;
+    color: #8175d3;
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
     cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    transition: background 0.3s, transform 0.3s;
 }
 
 nav button:hover {
-    background: #777;
+    background: #8175d3;
+    color: #1f242d;
+    transform: scale(1.05);
 }
 
 main {
@@ -128,16 +135,19 @@ main {
 }
 
 .contact-buttons button {
-    background: #555;
-    color: #fff;
+    background: #1f242d;
+    color: #8175d3;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 .contact-buttons button:hover {
-    background: #777;
+    background: #8175d3;
+    color: #1f242d;
+    transform: scale(1.05);
 }
 
 .project-details {
@@ -162,6 +172,30 @@ main {
 .project-item-content iframe {
     flex: 1;
     max-width: 500px;
+}
+
+/* New CSS for project buttons */
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-buttons button {
+    background: #1f242d;
+    color: #8175d3;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.project-buttons button:hover {
+    background: #8175d3;
+    color: #1f242d;
+    transform: scale(1.05);
 }
 
 @media (max-width: 600px) {
