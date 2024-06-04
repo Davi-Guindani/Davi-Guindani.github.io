@@ -11,12 +11,12 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     background-color: #1f242d;
-    color: #8175d3; /* Definindo a cor do texto padrão */
+    color: gainsboro; /* Definindo a cor do texto padrão */
 }
 
 header {
     background: #1f242d;
-    color: #8175d3;
+    color: gainsboro;
     padding: 10px 0;
 }
 
@@ -31,12 +31,12 @@ header {
 
 .logo h1, .logo p {
     margin: 0;
-    color: #8175d3; /* Cor da logo */
+    color: gainsboro; /* Cor da logo */
 }
 
 nav button {
     background: #1f242d;
-    color: #8175d3;
+    color: gainsboro;
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
@@ -46,7 +46,7 @@ nav button {
 }
 
 nav button:hover {
-    background: #8175d3;
+    background: gainsboro;
     color: #1f242d;
     transform: scale(1.05);
 }
@@ -56,13 +56,13 @@ main {
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    color: #8175d3; /* Cor do texto principal */
+    color: gainsboro; /* Cor do texto principal */
 }
 
 .projects h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #8175d3; /* Cor dos títulos dos projetos */
+    color: gainsboro; /* Cor dos títulos dos projetos */
 }
 
 .project-gallery {
@@ -93,7 +93,7 @@ main {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    color: #8175d3;
+    color: gainsboro;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +130,7 @@ main {
 
 .contact-info h2, .contact-info p {
     margin-bottom: 10px;
-    color: #8175d3; /* Cor dos títulos e textos de contato */
+    color: gainsboro; /* Cor dos títulos e textos de contato */
 }
 
 .contact-buttons {
@@ -142,7 +142,7 @@ main {
 
 .contact-buttons button {
     background: #1f242d;
-    color: #8175d3;
+    color: gainsboro;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -151,7 +151,7 @@ main {
 }
 
 .contact-buttons button:hover {
-    background: #8175d3;
+    background: gainsboro;
     color: #1f242d;
     transform: scale(1.05);
 }
@@ -165,7 +165,7 @@ main {
 }
 
 .project-details h1, .project-details h2, .project-details h3, .project-details p {
-    color: #8175d3; /* Cor dos títulos e textos dos detalhes do projeto */
+    color: gainsboro; /* Cor dos títulos e textos dos detalhes do projeto */
 }
 
 .project-item-content {
@@ -194,7 +194,7 @@ main {
 
 .project-buttons button {
     background: #1f242d;
-    color: #8175d3;
+    color: gainsboro;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -203,7 +203,7 @@ main {
 }
 
 .project-buttons button:hover {
-    background: #8175d3;
+    background: gainsboro;
     color: #1f242d;
     transform: scale(1.05);
 }
